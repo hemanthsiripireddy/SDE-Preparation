@@ -30,9 +30,11 @@ import week3.MinJumps;
 import week3.NumberOfSubArraysWithGivenXorK;
 import week4.GridUniquepaths;
 import week4.LengthofthelongestsubarraywithzeroSum;
+import week4.ModifyLinkedList;
 import week4.PossibleExpressionToEvaluateTarget;
 import week4.PrintAllPanlidromicSubstrings;
 import week4.StockBuyandSell;
+import week5.JumpGame;
 
 import java.util.*;
 public class Main{
@@ -44,7 +46,9 @@ public class Main{
 		 //GridUniquepaths.method();
 		 //PossibleExpressionToEvaluateTarget.method();
 		 //LengthofthelongestsubarraywithzeroSum.method();
-		 StockBuyandSell.method();
+		 //StockBuyandSell.method();
+		// ModifyLinkedList.method();
+		 JumpGame.method();
 	    }
 	 
 }
