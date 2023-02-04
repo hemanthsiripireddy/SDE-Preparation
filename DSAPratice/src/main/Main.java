@@ -16,6 +16,7 @@ import linkedList.FindCycle;
 import linkedList.FindMiddleNode;
 import linkedList.LinkedQueueImplementation;
 import linkedList.LinkedStackImplementation;
+import linkedList.Polynomial;
 import linkedList.ReverseLinkedList;
 import linkedList.ReverseLinkedListInKGroups;
 import recursion.Atoi;
@@ -32,7 +33,8 @@ public class Main {
 		//DoublyLinkedListImplementation.metho();
 		//CircularLinkedListImplementation.method();
 		//LinkedStackImplementation.method();
-		LinkedQueueImplementation.method();
+		//LinkedQueueImplementation.method();
+		Polynomial.method();
 
 	}
 
