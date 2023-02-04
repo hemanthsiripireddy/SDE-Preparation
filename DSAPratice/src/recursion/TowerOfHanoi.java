@@ -2,7 +2,7 @@ package recursion;
 
 public class TowerOfHanoi {
 	public static void method() {
-		int n=4
+		int n=2
 				;
 		int minSteps=minSteps(n,'s','d','a');
 		System.out.println(minSteps);

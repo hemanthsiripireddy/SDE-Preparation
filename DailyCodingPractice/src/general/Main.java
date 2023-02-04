@@ -34,6 +34,11 @@ import week4.ModifyLinkedList;
 import week4.PossibleExpressionToEvaluateTarget;
 import week4.PrintAllPanlidromicSubstrings;
 import week4.StockBuyandSell;
+import week5.ArithmeticSlices;
+import week5.DecodeString;
+import week5.DifferentWaysToAddParaenthesis;
+import week5.Fib;
+import week5.Fibo;
 import week5.JumpGame;
 
 import java.util.*;
@@ -48,7 +53,12 @@ public class Main{
 		 //LengthofthelongestsubarraywithzeroSum.method();
 		 //StockBuyandSell.method();
 		// ModifyLinkedList.method();
-		 JumpGame.method();
+		// JumpGame.method();
+		 //DecodeString.method();
+		// Fibo.method();
+		// ArithmeticSlices.method();
+		 DifferentWaysToAddParaenthesis.method();
+		
 	    }
 	 
 }

@@ -9,6 +9,15 @@ import arrays.MergeInterval;
 import arrays.MissingNumber;
 import arrays.SetMatrixZero;
 import arrays.WaterTrapping;
+import linkedList.CircularLinkedListImplementation;
+import linkedList.DetectCycleFirstNode;
+import linkedList.DoublyLinkedListImplementation;
+import linkedList.FindCycle;
+import linkedList.FindMiddleNode;
+import linkedList.LinkedQueueImplementation;
+import linkedList.LinkedStackImplementation;
+import linkedList.ReverseLinkedList;
+import linkedList.ReverseLinkedListInKGroups;
 import recursion.Atoi;
 import recursion.DigitsSum;
 import recursion.PalindromeCheck;
@@ -18,21 +27,12 @@ import recursion.TraingleSum;
 public class Main {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		//TowerOfHanoi.method();
-		//PalindromeCheck.method();
-		//DigitsSum.methid();
-		//Atoi.method();
-		//TraingleSum.method();
-		//DynamicArrayMain.method();
-		//ArrayOperationsMain.method();
-		//MissingNumber.method();
-		//LargestElementTowardsLeftAndRight.method();
-		//MaxProfit.method();
-		//WaterTrapping.method();
-		//EquilibriumSum.method();
-		//MergeInterval.method();
-		SetMatrixZero.method();
+		//ReverseLinkedList.method();
+		//ReverseLinkedListInKGroups.method();
+		//DoublyLinkedListImplementation.metho();
+		//CircularLinkedListImplementation.method();
+		//LinkedStackImplementation.method();
+		LinkedQueueImplementation.method();
 
 	}
 
