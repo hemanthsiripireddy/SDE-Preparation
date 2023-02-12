@@ -8,9 +8,11 @@ public class IntersectionOfTwoLinkedLists {
 
 	private static Node intersection(Node head1, Node head2) {
 		// TODO Auto-generated method stub
-		int h1=0,h2=0;
+		//int h1=0,h2=0;
 		if(head1==null||head2==null)
 			return null;
+		
+		int h1=0,h2=0;
 		Node node=head1;;
 		while(node!=null) {
 			h1++;
