@@ -3,8 +3,10 @@ package main;
 import searchingAndSorting.BinarySearch;
 import searchingAndSorting.BubbleSort;
 import searchingAndSorting.InsertionSort;
+import searchingAndSorting.InversionCountUsingMergeSort;
 import searchingAndSorting.LinearSearch;
 import searchingAndSorting.MergeSort;
+import searchingAndSorting.MergeSortInplace;
 import searchingAndSorting.QuickSort;
 import searchingAndSorting.SelectionSort;
 
@@ -23,8 +25,10 @@ public class Main {
 		//BubbleSort.method();
 		//SelectionSort.method();
 		//InsertionSort.method();
-		MergeSort.method();
-		QuickSort.method();
+		//MergeSort.method();
+		//QuickSort.method();
+		//MergeSortInplace.method();
+		InversionCountUsingMergeSort.method();
 
 	}
 
