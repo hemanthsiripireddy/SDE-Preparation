@@ -7,6 +7,7 @@ import searchingAndSorting.InversionCountUsingMergeSort;
 import searchingAndSorting.LinearSearch;
 import searchingAndSorting.MergeSort;
 import searchingAndSorting.MergeSortInplace;
+import searchingAndSorting.MinimumSwapsTheory;
 import searchingAndSorting.QuickSort;
 import searchingAndSorting.SelectionSort;
 
@@ -28,7 +29,8 @@ public class Main {
 		//MergeSort.method();
 		//QuickSort.method();
 		//MergeSortInplace.method();
-		InversionCountUsingMergeSort.method();
+		//InversionCountUsingMergeSort.method();
+		MinimumSwapsTheory.method();
 
 	}
 
