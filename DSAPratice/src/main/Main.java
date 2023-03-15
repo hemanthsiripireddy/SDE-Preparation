@@ -1,33 +1,35 @@
 package main;
 
-import searchingAndSorting.BinarySearch;
-import searchingAndSorting.BubbleSort;
-import searchingAndSorting.FindFirstandLastPositionofElementinSortedArray;
-import searchingAndSorting.InsertionSort;
-import searchingAndSorting.InsertionSortALinkedList;
-import searchingAndSorting.InversionCountUsingMergeSort;
-import searchingAndSorting.LinearSearch;
-import searchingAndSorting.MedianOfaStream;
-import searchingAndSorting.MergeSort;
-import searchingAndSorting.MergeSortInplace;
-import searchingAndSorting.MinimumSwapsTheory;
-import searchingAndSorting.PairsWithMinDiffTheory;
-import searchingAndSorting.QuickSort;
-import searchingAndSorting.RotatedArraySearch;
-import searchingAndSorting.SelectionSort;
-import searchingAndSorting.WaveArray1;
-import searchingAndSorting.WaveArray2;
-import strings.CompareVersionNumbers;
-import strings.LongestSubstringWithoutRepeatingCharacters;
-import strings.StringDemo;
-import strings.StringMatching;
-import strings.StringOperations;
+import java.util.Arrays;
+import java.util.Comparator;
+import java.util.LinkedHashSet;
+import java.util.Set;
+
+import bitManupulation.CheckIfElementIsPowerOf2;
+import bitManupulation.ElementOccuringOnce;
+import bitManupulation.GroupAnagrams;
+import bitManupulation.NumberOfSetBits;
+import bitManupulation.SwapTwoNumbers;
+import hashing.CountDuplicateElements;
+import hashing.HashMapImpl;
+import hashing.MajorityELementBoyer_Moore_Algorithm;
+import hashing.SortElementsByFrequency;
+import hashing.TreeSetImp;
+import stackAndQueue.BalancedBrackets;
+import stackAndQueue.FindCelebrity;
+import stackAndQueue.InfixToPostFixExpression;
+import stackAndQueue.NextGreaterElement;
+import stackAndQueue.PostfixEvalution;
+import stackAndQueue.PostfixToInfix;
+import stackAndQueue.StackImpl;
 
 public class Main {
 
 	public static void main(String[] args) {
-		//CompareVersionNumbers.method();
-		LongestSubstringWithoutRepeatingCharacters.method();
+		String str="a:b:c";
+		String[] res=str.split("\\.");
+		System.out.println(res.length);
 	}
 
+	
 }

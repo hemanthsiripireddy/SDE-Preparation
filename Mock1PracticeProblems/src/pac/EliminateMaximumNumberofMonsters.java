@@ -8,7 +8,7 @@ public class EliminateMaximumNumberofMonsters {
 	
 	 public static int eliminateMaximum(int[] dist, int[] speed) {
 	       
-		 Queue<Integer>q=new PriorityQueue<>();
+		
 		 double time[] =new double[dist.length];
 	        for(int i=0;i<dist.length;i++){
 	            time[i]=(double)dist[i]/speed[i];
