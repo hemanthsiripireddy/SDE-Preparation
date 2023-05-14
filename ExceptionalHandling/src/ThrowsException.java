@@ -10,6 +10,7 @@ public class ThrowsException {
 	public static void readFile() throws NullPointerException {
 		FileReader file=null;
 		BufferedReader fileInput=null;
+		int k3=5/0;
 		try {
 			
 			int k=5/3;

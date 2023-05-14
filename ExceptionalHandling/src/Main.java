@@ -7,12 +7,21 @@ public class Main {
 	//throw new ArithmeticException("hello world");
 		//TryWithResourcesDemo.tryWithResourcesDemo();
 		//UserDefinedExceptionDemo.userDefinedExcepton();
+		//TryWithResourcesDemo.tryWithResourcesDemo();
 		try {
-			return;
+			throw new IOException();
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.getStackTrace();
+			System.out.println(e.getMessage());
+			e.printStackTrace();
+			//System.out.println(e.printStackTrace());
 		}
 		finally {
-			System.out.println("eh");
+			
 		}
+		
+		
 	}
 
 }

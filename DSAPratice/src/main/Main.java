@@ -1,35 +1,49 @@
 package main;
 
-import java.util.Arrays;
-import java.util.Comparator;
-import java.util.LinkedHashSet;
-import java.util.Set;
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.LinkedList;
+import java.util.List;
+import java.util.PriorityQueue;
+import java.util.TreeSet;
 
+import backtracking.BinaryWatchImp;
+import backtracking.MatchsticksstoSquareImp;
+import backtracking.ValidTriangleNumber;
+import bitManupulation.BitOperations;
 import bitManupulation.CheckIfElementIsPowerOf2;
 import bitManupulation.ElementOccuringOnce;
-import bitManupulation.GroupAnagrams;
-import bitManupulation.NumberOfSetBits;
-import bitManupulation.SwapTwoNumbers;
-import hashing.CountDuplicateElements;
-import hashing.HashMapImpl;
-import hashing.MajorityELementBoyer_Moore_Algorithm;
-import hashing.SortElementsByFrequency;
-import hashing.TreeSetImp;
-import stackAndQueue.BalancedBrackets;
-import stackAndQueue.FindCelebrity;
-import stackAndQueue.InfixToPostFixExpression;
-import stackAndQueue.NextGreaterElement;
-import stackAndQueue.PostfixEvalution;
-import stackAndQueue.PostfixToInfix;
-import stackAndQueue.StackImpl;
+import dp.CounttheNumberofSquareFreeSubsets;
+import dp.InterleavingString;
+import dp.New21Game;
+import graphs.MaxCount;
+import graphs.TestAdjacencyList;
+import graphs.TestBFS;
+import graphs.TestDFSIterative;
+import graphs.TestDFSTraversal;
+import graphs.TestGraph;
+import greedy.MinimumNumberofArrowstoBurstBalloons;
+import heap.FindKPairswithSmallestSumsImp;
+import heap.HeapSortDemo;
+import heap.MaxHeap;
+import heap.MaxHeapDemo;
+import heap.MinHeapDemo;
+import heap.TwitterImp;
+import trees.BoundaryView2;
+import trees.DeleteANodeBST;
+import trees.FlattenBinaryTreetoLinkedList;
+import trees.InsertionInABinarySearchTree;
+import trees.MindistancebetweentwogivennodesofaBinaryTree;
+import trees.SearchInBST;
 
 public class Main {
 
 	public static void main(String[] args) {
-		String str="a:b:c";
-		String[] res=str.split("\\.");
-		System.out.println(res.length);
+		
+		
+		MaxCount.method();
+		
+		 
 	}
-
 	
 }
