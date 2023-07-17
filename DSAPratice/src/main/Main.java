@@ -1,49 +1,104 @@
 package main;
 
 import java.util.ArrayList;
-import java.util.Collections;
-import java.util.LinkedList;
+import java.util.Arrays;
 import java.util.List;
-import java.util.PriorityQueue;
-import java.util.TreeSet;
 
-import backtracking.BinaryWatchImp;
-import backtracking.MatchsticksstoSquareImp;
-import backtracking.ValidTriangleNumber;
-import bitManupulation.BitOperations;
 import bitManupulation.CheckIfElementIsPowerOf2;
-import bitManupulation.ElementOccuringOnce;
-import dp.CounttheNumberofSquareFreeSubsets;
-import dp.InterleavingString;
-import dp.New21Game;
-import graphs.MaxCount;
-import graphs.TestAdjacencyList;
-import graphs.TestBFS;
-import graphs.TestDFSIterative;
-import graphs.TestDFSTraversal;
-import graphs.TestGraph;
-import greedy.MinimumNumberofArrowstoBurstBalloons;
-import heap.FindKPairswithSmallestSumsImp;
-import heap.HeapSortDemo;
-import heap.MaxHeap;
-import heap.MaxHeapDemo;
-import heap.MinHeapDemo;
-import heap.TwitterImp;
-import trees.BoundaryView2;
-import trees.DeleteANodeBST;
-import trees.FlattenBinaryTreetoLinkedList;
-import trees.InsertionInABinarySearchTree;
-import trees.MindistancebetweentwogivennodesofaBinaryTree;
-import trees.SearchInBST;
+import bitManupulation.PartitiontoKEqualSumSubsets;
+import dp.TrappingRainWaterII;
+import graphs.NumberofWaystoArriveatDestination;
+import heap.MaximumNumberofEventsThatCanBeAttended;
+import numberTheory.WaterandJugProblem;
+import searchingAndSorting.MaxChunksToMakeSorted;
+import stackAndQueue.MaximumSumCircularSubarray;
+import trie.LexicographicalNumbers;
 
 public class Main {
 
 	public static void main(String[] args) {
-		
-		
-		MaxCount.method();
-		
-		 
+		int[][] arr= {{3,3,3,3,3},{3,2,2,2,3},{3,2,1,2,3},{3,2,2,2,3},{3,3,3,3,3}};
+		int res=TrappingRainWaterII.trapRainWater(arr);
+		System.out.println(res);
 	}
-	
+
+	public static int[][] spiralMatrixIII(int rows, int cols, int rStart, int cStart) {
+
+		int[][] res = new int[rows][cols];
+		int c = 1;
+		int cr = rStart, cc = cStart;
+		res[cr][cc] = c++;
+		int ns = 1;
+		int n = 1;
+		int total = rows * cols;
+		while (c <= total) {
+			
+
+			int count = 0;
+			while (count < ns) {
+				cc++;
+				if (cr >= 0 && cr < rows && cc >= 0 && cc < cols) {
+					res[cr][cc] = c++;
+
+				}
+				count++;
+			}
+			if (n == 1) {
+				n++;
+			} else {
+				ns++;
+				n = 1;
+			}
+			count = 0;
+			while (count < ns) {
+				cr++;
+				if (cr >= 0 && cr < rows && cc >= 0 && cc < cols) {
+					res[cr][cc] = c++;
+
+				}
+				count++;
+
+			}
+			if (n == 1) {
+				n++;
+			} else {
+				ns++;
+				n = 1;
+			}
+			count = 0;
+			while (count < ns) {
+				cc--;
+				if (cr >= 0 && cr < rows && cc >= 0 && cc < cols) {
+					res[cr][cc] = c++;
+
+				}
+				count++;
+
+			}
+			if (n == 1) {
+				n++;
+			} else {
+				ns++;
+				n = 1;
+			}
+			count = 0;
+			while (count < ns) {
+				cr--;
+				if (cr >= 0 && cr < rows && cc >= 0 && cc < cols) {
+					res[cr][cc] = c++;
+
+				}
+				count++;
+
+			}
+			if (n == 1) {
+				n++;
+			} else {
+				ns++;
+				n = 1;
+			}
+		}
+		return res;
+
+	}
 }
