@@ -2,24 +2,28 @@ package main;
 
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.HashSet;
 import java.util.List;
+import java.util.Set;
 
+import arrays.RearrangeArraytoMaximizePrefixScore;
 import bitManupulation.CheckIfElementIsPowerOf2;
 import bitManupulation.PartitiontoKEqualSumSubsets;
 import dp.TrappingRainWaterII;
 import graphs.NumberofWaystoArriveatDestination;
+import hashing.ArrayofDoubledPairs;
 import heap.MaximumNumberofEventsThatCanBeAttended;
 import numberTheory.WaterandJugProblem;
 import searchingAndSorting.MaxChunksToMakeSorted;
 import stackAndQueue.MaximumSumCircularSubarray;
+import strings.MostCommonWord;
+import strings.NumberToStringConversion;
 import trie.LexicographicalNumbers;
 
 public class Main {
 
 	public static void main(String[] args) {
-		int[][] arr= {{3,3,3,3,3},{3,2,2,2,3},{3,2,1,2,3},{3,2,2,2,3},{3,3,3,3,3}};
-		int res=TrappingRainWaterII.trapRainWater(arr);
-		System.out.println(res);
+		ArrayofDoubledPairs.method();
 	}
 
 	public static int[][] spiralMatrixIII(int rows, int cols, int rStart, int cStart) {
