@@ -1,4 +1,4 @@
-package designPattern;
+package designPattern.structural.fascadeDesign;
 
 public class FascadeImplementation {
 	

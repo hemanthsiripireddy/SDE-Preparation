@@ -1,4 +1,4 @@
-package designPattern;
+package designPattern.creational;
 
 public class IphoneFactoryImplementation {
 	public static void main(String[] args) {

@@ -31,6 +31,10 @@ public class Teacher {
 		this.l_name = l_name;
 		this.email = email;
 	}
+public Teacher( ) {
+		
+		
+	}
 	public int getId() {
 		return id;
 	}
@@ -54,6 +58,10 @@ public class Teacher {
 	}
 	public void setEmail(String email) {
 		this.email = email;
+	}
+	@Override
+	public String toString() {
+		return "Teacher [id=" + id + ", f_name=" + f_name + ", l_name=" + l_name + ", email=" + email + "]";
 	}
 	
 	
