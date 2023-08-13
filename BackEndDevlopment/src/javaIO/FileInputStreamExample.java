@@ -3,6 +3,7 @@ package javaIO;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
+import java.util.Scanner;
 
 public class FileInputStreamExample {
 
@@ -10,7 +11,10 @@ public class FileInputStreamExample {
 		// TODO Auto-generated method stub
 		FileInputStream fileInputStream=null;
 		try {
-			fileInputStream=new FileInputStream("src/resources/input.txt");
+			Scanner sc=new Scanner(System.in);
+			System.out.println("Enter file Name: ");
+			String fileName =sc.next();
+			fileInputStream=new FileInputStream("src/resources/"+fileName);
 			int data;
 			while((data=fileInputStream.read())!=-1) {
 				System.out.print((char)data);
