@@ -24,13 +24,38 @@ import strings.NumberToStringConversion;
 import trie.LexicographicalNumbers;
 
 public class Main {
+	public static class Hem implements Comparator<Integer>{
+
+		@Override
+		public int compare(Integer a, Integer b) {
+			// TODO Auto-generated method stub
+			int c1=c(a);
+            int c2=c(b);
+            if(c1<c2)
+            return -1;
+            else if(c1>c2)
+            return 1;
+            else{
+                return a-b;
+            }
+		}
+		 public int c(int n){
+		        int res=0;
+		        while(n>=0){
+		            if((n&1)==1){
+		                res++;
+		            }
+		            n=n>>1;
+		        }
+		        return res;
+		    }
+		
+	}
 
 	public static void main(String[] args) {
-		String str="[[35,-23],[-12,-48],[-34,-40],[21,-25],[-35,-44],[24,1],[16,-9],[41,4],[-36,-49],[42,-49],[-37,-20],[-35,11],[-2,-36],[18,21],[18,8],[-24,14],[-23,-11],[-8,44],[-19,-3],[0,-10],[-21,-4],[23,18],[20,11],[-42,24],[6,-19]]";
-		//System.out.println(str.length());
-		String res=SquareBrackerToCurlyBrackets.covert(str);
-		System.out.println(res);
-		//MaximumSideLengthofaSquarewithSumLessthanorEqualtoThreshold.client();
+		Integer[] arr= {0,1,2,3,4,5,6,7,8,9};
+		Comparator<Integer> c= new Hem();
+		Arrays.sort(arr, c);
 		
 	}
 
