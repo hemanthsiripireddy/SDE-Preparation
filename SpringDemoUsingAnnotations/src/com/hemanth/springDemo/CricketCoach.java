@@ -2,7 +2,7 @@ package com.hemanth.springDemo;
 
 import org.springframework.stereotype.Component;
 
-
+@Component
 public class CricketCoach implements SportsCoach{
 	private ExpertAdvice expertAdvice;
 	

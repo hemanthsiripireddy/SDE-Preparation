@@ -1,7 +1,9 @@
 package com.hemanth.springDemo;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
 
+@Component
 public class FootballCoach implements SportsCoach{
 	ExpertAdvice expertAdvice;
 
@@ -20,7 +22,7 @@ public class FootballCoach implements SportsCoach{
 	public ExpertAdvice getExpertAdvice() {
 		return expertAdvice;
 	}
-
+@Autowired
 	public void setExpertAdvice(ExpertAdvice expertAdvice) {
 		this.expertAdvice = expertAdvice;
 	}
