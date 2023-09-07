@@ -1,4 +1,4 @@
-package designPattern;
+package designPattern.behavioral;
 
 public class VisitorDesignPattern {
 
