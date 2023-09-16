@@ -12,7 +12,7 @@ public class Insert {
 		// TODO Auto-generated method stub
 		ApplicationContext ctx= ContextProvider.provideContext();
 		StudentDao studentDao= ctx.getBean("stDao",StudentDao.class);
-		Student s=new Student(3,"suresh");
+		Student s=new Student(5,"suresh");
 		studentDao.insert(s);
 
 	}

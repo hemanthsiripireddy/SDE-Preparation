@@ -69,8 +69,8 @@ public class Main {
 			});
 			System.out.println(listEmployee);
 			//SQL Delete
-			String sqlDeleteQuery="delete from employee where name=?";
-			jdbcTemplate.update(sqlDeleteQuery,"Employee1");
+//			String sqlDeleteQuery="delete from employee where name=?";
+//			jdbcTemplate.update(sqlDeleteQuery,"Employee1");
 			//Close the connection
 			
 			
