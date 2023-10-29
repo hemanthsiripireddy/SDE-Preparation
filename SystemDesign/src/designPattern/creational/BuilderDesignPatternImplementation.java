@@ -41,6 +41,10 @@ public class BuilderDesignPatternImplementation {
 	}
 
 
+	/**
+	 * @author sirip
+	 *
+	 */
 	public static class CarBuilder{
 		 
 		//mandatory fields
