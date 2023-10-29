@@ -26,7 +26,8 @@ public class Dummy {
 	        }
 	        //return profit;
 	        ArrayList<Integer>res=new ArrayList<>();
-	        res.c
+	       // res.c
+	        return 1;
 	        
 	    }
 

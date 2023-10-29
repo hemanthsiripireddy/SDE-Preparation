@@ -6,16 +6,16 @@ import java.util.List;
 import graphs.LoudandRich.Node;
 
 public class Pair<T1, T2> {
-	int key;
+	boolean key;
 	int value;
 	
 	
-	public Pair(int key,int value) {
+	public Pair(boolean b,int value) {
 		// TODO Auto-generated constructor stub
-		this.key=key;
+		this.key=b;
 		this.value=value;
 	}
-	public int getKey() {
+	public boolean getKey() {
 		return this.key;
 	}
 	public int getValue() {
