@@ -17,7 +17,7 @@ import java.util.stream.Stream;
 public class Main {
 	public static void main(String[] args) {
 
-		int res = new Solution().numberSequence(10, 4);
+		int res=new Solution().solve(3739, 8179);
 		System.out.println(res);
 
 		

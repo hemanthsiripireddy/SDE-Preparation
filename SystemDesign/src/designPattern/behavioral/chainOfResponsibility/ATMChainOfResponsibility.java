@@ -10,7 +10,7 @@ public class ATMChainOfResponsibility {
 		fd.setNextChain(twd);
 		twd.setNextChain(tend);
 		
-		Currency cur=new Currency(121);
+		Currency cur=new Currency(120);
 		fd.dispenseCurrency(cur);
 				
 
